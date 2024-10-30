@@ -44,7 +44,7 @@ class Loginpage extends StatelessWidget {
           Mytextfield(
             controller: usernameController,
             hintText: 'username',
-            obscureText: true,
+            obscureText: false,
             ),
           
           const SizedBox(height: 10),
@@ -53,7 +53,7 @@ class Loginpage extends StatelessWidget {
           Mytextfield(
             controller: passwordController,
             hintText: 'password',
-            obscureText: false,
+            obscureText: true,
           ),
 
           const SizedBox(height:10),
